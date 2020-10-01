@@ -1,0 +1,149 @@
+html { 
+	height: 100%;
+	background-color: #3AAFA9;
+	font-family: sans-serif;
+}
+
+#main-text {
+	font-family: Righteous, sans-serif;
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+}
+
+#main-text-name {
+	color: #17252A;
+}
+
+#main-text p {
+	color: #2B7A78;
+}
+
+
+.navbar-menu { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2B7A78;
+}
+
+.navbar-menu-item {
+	float: left;
+	width: 20%;
+}
+
+.navbar-menu-item a {
+	display: block;
+	color: #17252A;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar-menu-item a:hover {
+	background-color: #DEF2F1;
+}
+
+.navbar-menu-item .navbar-item-active {
+	color: #FEFFFF;
+	text-decoration: underline;
+}
+
+#feature-img {
+	margin-top: 10px;
+	
+
+}
+
+#content {
+	background: #2B7A78;
+	margin: 10px;
+	padding: 10px;
+}
+
+.header {
+	font-family: Righteous, sans-serif;
+	color: #fff;
+}
+
+.sub-header {
+	font-family: Righteous, sans-serif;
+	color: #17252A;
+}
+
+.material-icons.md-18 {
+	font-size: 18px;
+}
+
+.material-icons.md-24 {
+	font-size: 24px;
+}
+
+#footer {
+	text-align: center;
+	color: #2B7A78;
+	
+}
+
+.edu-font1{
+ color: #3AAFA9;
+}
+.edu-font2{
+ color: #DEF2F1;
+}
+
+.index-table{
+height: auto;
+margin:10px;
+}
+.index-box{
+color: #3AAFA9; 
+padding: 10px;
+height: auto;
+width: auto;
+background-color: #2B7A78;
+position: static;
+margin:10px;
+margin-bottom:10px;
+border: 1px solid #DEF2F1;
+border-radius:5%;
+}
+
+.fashion1{
+width: 200px;
+height: 200px;
+border:1px solid #000;
+margin: 2px;
+}
+.fa1-box{
+display: block;
+float: left;
+width: auto;
+height:auto;
+margin-top:-30px;}
+
+.contact-icon{
+margin-left: 70px;
+padding: 10px;
+}
+
+.button{
+width:100px;
+padding: 10px;
+font-weight: bold;
+border-radius: 5%;
+}
+.container{
+ }
+input[type=text]{
+width: 50%;
+margin: 10px;
+display: inline-block;
+padding: 10px;
+border: none;
+}
+input[type=button]{{
+width:10px;
+padding: 10px;
+border: none;}

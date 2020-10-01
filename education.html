@@ -1,0 +1,143 @@
+<html>
+	
+ <head>
+		
+  <meta charset='utf-8'>
+		
+  <title>Sewwandi Karunarathna</title>
+		
+  <link rel="stylesheet" href="css/style.css">
+		
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	</head>
+
+	<body>
+		
+ <div id="header">
+			
+  <div id="main-text">
+				
+   <h1>Personal Website of <span id="main-text-name">Sewwandi Karunarathna</span></h1>	
+				
+    <p>A personal space where I share my views, opinions, and other stuff. Contents are not endorsements.</p>
+			</div>
+			
+     <div id="navbar">
+				
+      <ul class="navbar-menu">
+					
+       <li class="navbar-menu-item">
+						
+        <a href="index.html">Home</a>
+					
+       </li>
+					
+       <li class="navbar-menu-item">
+						
+	<a href="education.html" class="navbar-item-active">Education</a>
+					
+       </li>
+					
+       <li class="navbar-menu-item">
+						
+	<a href="hobbies.html">Hobbies</a>
+					
+       </li>
+					
+       <li class="navbar-menu-item">
+						
+        <a href="fashions.html">Fashions</a>
+					
+       </li>
+					
+       <li class="navbar-menu-item">
+						
+	<a href="contact.html">Contact</a>
+					
+       </li>
+				
+      </ul>
+			
+    </div>
+			
+  <div id="feature-img">
+				
+   <img class="pic" src="img\happy.png" alt="happy" width="100%" height="70%"/>
+   <img class="pic" src="img\books.jpeg" alt="books" width="100%" height="70%"/>
+   <img class="pic" src="img\degree.jpg" alt="degree" width="100%" height="70%"/>
+   <img class="pic" src="img\music.jpg" alt="music" width="100%" height="70%"/>
+   <img class="pic" src="img\frocks.jpg" alt="frocks" width="100%" height="70%"/>
+   <img class="pic" src="img\shoes.jpeg" alt="shoes" width="100%" height="70%"/>
+   <img class="pic" src="img\contact.jpeg" alt="contact" width="100%" height="70%"/>
+   <img class="pic" src="img\keytohappiness.jpg" alt="keytohappiness" width="100%" height="70%"/>					
+  </div>
+		
+ </div>
+		
+ <div id="content">
+			
+  <h2 class="header">What I have <span class="sub-header">Learned</span></h2>
+
+
+  <h4>B.Sc in Computing and Information Systems (Reading)<br><span class="edu-font1">Sabaragamuwa University of Sri Lanka</span><br>
+  <i class="edu-font2">November 2017-Present</i></h4>
+  <p>I am reading for a bachelor's degree in Information Systems, which in my opinion is extremely valuable because a graduate holding this degree can pivot their career in many directions. 
+     The programming-related modules I study include Web technologies, Structured programming, object oriented programming, and databases. I have also learned information systems theory and studied software development methodologies. Further, this course includes modules like Mathematics and Professional English, 
+     all of which come together to make the degree holder highly skilled and employable</p>
+
+  <h4>Advanced Levels - Physical Sciences<br>
+   <span class="edu-font1">Govt.Science College, Matale</span><br>
+   <i class="edu-font2">January 2011- August 2015</i></h4>
+  <ul type="square">
+   <li>Finished the Ordinary Level Examinations with a perfect 9A score,and chose Physical sciences as the Advanced Level stream.</li>
+   <li>In the Advanced Level examinations, sat for Combined Mathematics, Chemistry, and Physics, the result of which allowed me to enter Sabaragamuwa University of Sri Lanka</li>
+   <li> Actively participated in many clubs and societies during my time as a school student.</li>
+  </ul>
+ <h4>English Language Training<br><span class="edu-font1">Technical College, Matale</span><br>
+ <i class="edu-font2">2013</i></h4>
+  <ul type="square">
+   <li> An English course designed to develop the basic communication skills. 
+      I pursued this course for several months with excellent results. </li>
+  </ul>
+  <h4>English Language Training<br><span class="edu-font1">Technical College, Matale</span><br>
+  <i class="edu-font2">2015-2016</i></h4>
+  <ul type="square">
+   <li>  A continuation of the previous course, where I could build upon my communication skills and resume English education, 
+      preparing me for the upcoming university education </li>
+ </div>
+		
+ <div id="footer">
+			
+ <hr><br>
+			
+ <i class="material-icons md-24">star</i><i class="material-icons md-24">mood</i><i class="material-icons md-24">star</i>
+			
+ <p>Copyright <i class="material-icons md-18">copyright</i> 2019. <br>  
+			
+ <i class="material-icons md-18">code</i> with <i class="material-icons md-18">favorite</i> using HTML5 and CSS3</p>
+		
+ </div>
+	
+</body>
+
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("pic");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+</html>

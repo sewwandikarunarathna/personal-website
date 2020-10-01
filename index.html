@@ -1,0 +1,152 @@
+<html>
+	
+ <head>
+		
+  <meta charset='utf-8'>
+		
+   <title>Sewwandi Karunarathna</title>
+		
+   <link rel="stylesheet" href="css/style.css">
+		
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	
+ </head>
+
+	
+<body>
+		
+ <div id="header">
+			
+  <div id="main-text">
+				
+   <h1>Personal Website of <span id="main-text-name">Sewwandi Karunarathna</span></h1>	
+				
+   <p>A personal space where I share my views, opinions, and other stuff. Contents are not endorsements.</p>
+			
+  </div>
+			
+ <div id="navbar">
+				
+  <ul class="navbar-menu">
+					
+   <li class="navbar-menu-item">
+						
+    <a href="index.html" class="navbar-item-active">Home</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="education.html">Education</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="hobbies.html">Hobbies</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="fashions.html">Fashions</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="contact.html">Contact</a>
+					
+   </li>
+				
+  </ul>
+			
+ </div>
+			
+ <div id="feature-img">
+				
+  <img class="pic" src="img\happy.png" alt="happy" width="100%" height="90%"/>
+  <img class="pic" src="img\books.jpeg" alt="books" width="100%" height="90%"/>
+  <img class="pic" src="img\degree.jpg" alt="degree" width="100%" height="90%"/>
+  <img class="pic" src="img\music.jpg" alt="music" width="100%" height="90%"/>
+  <img class="pic" src="img\frocks.jpg" alt="frocks" width="100%" height="90%"/>
+  <img class="pic" src="img\shoes.jpeg" alt="shoes" width="100%" height="90%"/>
+  <img class="pic" src="img\contact.jpeg" alt="contact" width="100%" height="90%"/>
+  <img class="pic" src="img\keytohappiness.jpg" alt="keytohappiness" width="100%" height="90%"/>		
+ </div>
+		
+ </div>
+		
+ <div id="content">
+			
+  <h2 class="header">This is my <span class="sub-header">Profile</span></h2>
+			
+   <div class="index-table">
+    <table class="detail" cellpadding="20px">
+ 	<tr>
+  	 <td>Name</td>
+  	 <td>: Sewwandi Karunarathna</td>
+	</tr>
+ 	<tr>
+  	 <td>Birthday</td>
+  	 <td>: 04-11-1996</td>
+ 	</tr>
+	<tr>
+  	 <td>Age</td>
+  	 <td>: 22 years</td>
+ 	</tr>
+	<tr>
+  	 <td>Hometown</td>
+  	 <td>: Matale</td>
+ 	</tr>
+	<tr>
+  	 <td>Address</td>
+  	 <td>: No 10,Summerset Park,Palapathwala,Matale</td>
+ 	</tr>
+	<tr>
+  	 <td>School</td>
+  	 <td>: Govt.Science College</td>
+ 	</tr>
+     </table>
+    </div>
+  <div class="index-box">
+   <p>I'm an undergraduate of Degree in Computing and Information Systems at Sabaragamuwa University of Sri Lanka. My father and mother are teachers and my brother studies at ICBT Campus.</p>
+   <p>I'm interested in coding, music, reading. My laptop and my phone are favorite things in my life. I like to spend my time with my laptop. I like to learn about new things such as programming. Now I can already program in C, Java, HTML.These days I'm trying to learn python.</p>
+   <p>I'm a buddhist and sinhalese.I'm proud to say that because I believe my religion hard.</p>
+   <p>My biggest dream is to get a good job and care of my parents in future.</p></div>		
+  </div>
+		
+ <div id="footer">
+			
+ <hr>
+ <br>
+			
+  <i class="material-icons md-24">star</i><i class="material-icons md-24">mood</i><i class="material-icons md-24">star</i>
+   <p>Copyright <i class="material-icons md-18">copyright</i> 2019. <br>  
+			
+   <i class="material-icons md-18">code</i> with <i class="material-icons md-18">favorite</i> using HTML5 and CSS3</p>
+		</div>
+	
+</body>
+
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("pic");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+</html>

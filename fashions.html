@@ -1,0 +1,135 @@
+<html>
+	
+ <head>
+		
+  <meta charset='utf-8'>
+		
+  <title>Sewwandi Karunarathna</title>
+		
+  <link rel="stylesheet" href="css/style.css">
+		
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	
+ </head>
+
+	
+<body>
+		
+ <div id="header">
+			
+  <div id="main-text">
+				
+   <h1>Personal Website of <span id="main-text-name">Sewwandi Karunarathna</span></h1>	
+				
+   <p>A personal space where I share my views, opinions, and other stuff. Contents are not endorsements.</p>
+			
+ </div>
+			
+ <div id="navbar">
+				
+  <ul class="navbar-menu">
+					
+   <li class="navbar-menu-item">
+						
+    <a href="index.html">Home</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="education.html">Education</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="hobbies.html">Hobbies</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="fashions.html" class="navbar-item-active">Fashions</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="contact.html">Contact</a>
+					
+   </li>
+				
+  </ul>
+			
+ </div>
+			
+ <div id="feature-img">
+				
+  <img class="pic" src="img\happy.png" alt="happy" width="100%" height="90%"/>
+  <img class="pic" src="img\books.jpeg" alt="books" width="100%" height="90%"/>
+  <img class="pic" src="img\degree.jpg" alt="degree" width="100%" height="90%"/>
+  <img class="pic" src="img\music.jpg" alt="music" width="100%" height="90%"/>
+  <img class="pic" src="img\frocks.jpg" alt="frocks" width="100%" height="90%"/>
+  <img class="pic" src="img\shoes.jpeg" alt="shoes" width="100%" height="90%"/>
+  <img class="pic" src="img\contact.jpeg" alt="contact" width="100%" height="90%"/>
+  <img class="pic" src="img\keytohappiness.jpg" alt="keytohappiness" width="100%" height="90%"/>
+			
+ </div>
+		 
+ </div>
+		
+ <div id="content">
+			
+  <h2 class="header">All about my <span class="sub-header">Fashion</span></h2>
+			
+   <img src="img\f1.jpeg" alt="frocks.." class="fashion1">
+   <img src="img\f2.jpeg" alt="frocks.." class="fashion1">
+   <img src="img\f3.jpeg" alt="frocks.." class="fashion1">
+   <img src="img\f4.jpeg" alt="frocks.." class="fashion1">
+   <img src="img\f5.jpeg" alt="frocks.." class="fashion1">
+   <img src="img\frocks.jpg" alt="frocks.." class="fashion1"><br>
+   <img src="img\b1.jpeg" alt="blouses.." class="fashion1">
+   <img src="img\b2.jpeg" alt="blouses.." class="fashion1">
+   <img src="img\b3.jpeg" alt="blouses.." class="fashion1">
+   <img src="img\b4.jpeg" alt="blouses.." class="fashion1">
+   <img src="img\b5.jpeg" alt="blouses.." class="fashion1"><br>
+   <img src="img\s1.jpeg" alt="shoes.." class="fashion1">
+   <img src="img\s2.jpeg" alt="shoes.." class="fashion1">
+   <img src="img\s3.jpeg" alt="shoes.." class="fashion1">
+  </div>
+		
+  <div id="footer">
+			
+  <hr><br>
+			
+  <i class="material-icons md-24">star</i><i class="material-icons md-24">mood</i><i class="material-icons md-24">star</i>
+			
+  <p>Copyright <i class="material-icons md-18">copyright</i> 2019. <br>  
+			
+  <i class="material-icons md-18">code</i> with <i class="material-icons md-18">favorite</i> using HTML5 and CSS3</p>
+		
+ </div>
+	
+</body>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("pic");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</html>

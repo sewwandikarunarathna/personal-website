@@ -1,0 +1,141 @@
+<html>
+	
+ <head>
+		
+  <meta charset='utf-8'>
+		
+  <title>Sewwandi Karunarathna</title>
+		
+  <link rel="stylesheet" href="css/style.css">
+		
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	
+ </head>
+
+	
+<body>
+		
+ <div id="header">
+			
+  <div id="main-text">
+				
+  <h1>Personal Website of <span id="main-text-name">Sewwandi Karunarathna</span></h1>	
+				
+  <p>A personal space where I share my views, opinions, and other stuff. Contents are not endorsements.</p>
+			
+ </div>
+			
+ <div id="navbar">
+				
+  <ul class="navbar-menu">
+					
+   <li class="navbar-menu-item">
+						
+    <a href="index.html">Home</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="education.html">Education</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="hobbies.html">Hobbies</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="fashions.html">Fashions</a>
+					
+   </li>
+					
+   <li class="navbar-menu-item">
+						
+    <a href="contact.html" class="navbar-item-active">Contact</a>
+					
+   </li>
+				
+  </ul>
+		
+  </div>
+			
+  <div id="feature-img">
+				
+   <img class="pic" src="img\happy.png" alt="happy" width="100%" height="90%"/>
+   <img class="pic" src="img\books.jpeg" alt="books" width="100%" height="90%"/>
+   <img class="pic" src="img\degree.jpg" alt="degree" width="100%" height="90%"/>
+   <img class="pic" src="img\music.jpg" alt="music" width="100%" height="90%"/>
+   <img class="pic" src="img\frocks.jpg" alt="frocks" width="100%" height="90%"/>
+   <img class="pic" src="img\shoes.jpeg" alt="shoes" width="100%" height="90%"/>
+   <img class="pic" src="img\contact.jpeg" alt="contact" width="100%" height="90%"/>
+   <img class="pic" src="img\keytohappiness.jpg" alt="keytohappiness" width="100%" height="90%"/>
+			
+  </div>
+		
+ </div>
+		
+ <div id="content">
+			
+  <h2 class="header">Get in <span class="sub-header">Touch</span></h2>
+			
+  <center><h3><i>Let me know who you are!</i></h3>	
+	<form class="contact-form">
+	 <label>First Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>&nbsp<input type="text" name="fname" placeholder="Enter your first name" ><br>
+	 <label>Last Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>&nbsp<input type="text" name="lname" placeholder="Enter your last name" ><br>
+	 <label>Email Address&nbsp&nbsp&nbsp:</label>&nbsp<input type="text" name="email" placeholder="Enter your Email address" required><br>
+	 <label>Contact Number :</label><input type="text" name="pnumber" placeholder="Enter your contact number" ><br>
+	<label for="textarea1">Message :</label>&nbsp&nbsp&nbsp<textarea rows="4" cols="73" name="message" placeholder="Your message here..." id="textarea1"></textarea><br><br>
+	 <input type="button" class="button" value="Submit" onclick="msg()"/>
+        </form></center>
+   <hr>
+  <div class="contact-icon">
+   <a href="#"><img src="img\email.png" alt="email" height="60px" width="60px"></a>&nbsp&nbsp
+   <a href="#"><img src="img\fb.png" alt="email" height="60px" width="60px"></a>&nbsp&nbsp
+   <a href="#"><img src="img\linkedin.png" alt="email" height="60px" width="60px"></a>&nbsp&nbsp
+   <a href="#"><img src="img\ghub.png" alt="email" height="60px" width="60px"></a>
+  </div>
+  <hr>
+ </div>
+		
+ <div id="footer">
+			
+ <hr><br>
+			
+ <i class="material-icons md-24">star</i><i class="material-icons md-24">mood</i><i class="material-icons md-24">star</i>
+		
+ <p>Copyright <i class="material-icons md-18">copyright</i> 2019. <br>  
+			
+ <i class="material-icons md-18">code</i> with <i class="material-icons md-18">favorite</i> using HTML5 and CSS3</p>
+		
+</div>
+	
+</body>
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("pic");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+
+function msg(){
+alert("Your details sent sucessfully");
+}
+</script>
+</html>
