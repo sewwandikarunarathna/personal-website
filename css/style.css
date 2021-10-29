@@ -42,16 +42,17 @@ html {
 }
 
 .navbar-menu-item a:hover {
-	background-color: #DEF2F1;
+	background-color: #47c7c1;
 }
 
 .navbar-menu-item .navbar-item-active {
-	color: #FEFFFF;
+	color: #b7dfdf;
 	text-decoration: underline;
 }
 
 #feature-img {
 	margin-top: 10px;
+	height: 600px;
 	
 
 }
@@ -134,8 +135,11 @@ padding: 10px;
 font-weight: bold;
 border-radius: 5%;
 }
-.container{
- }
+
+#imagge{
+Left: 500px;
+}
+
 input[type=text]{
 width: 50%;
 margin: 10px;
@@ -143,7 +147,7 @@ display: inline-block;
 padding: 10px;
 border: none;
 }
-input[type=button]{{
+input[type=button]{
 width:10px;
 padding: 10px;
 border: none;}
